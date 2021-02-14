@@ -18,7 +18,7 @@
     <link rel="shortcut icon" type="image/x-icon" href="images/favicon.png" />
     
     <!-- PAGE TITLE HERE -->
-    <title>Sakhisizwe & Partners | Slogan</title>
+    <title>Sakhisizwe & Associates | Slogan</title>
     
     <!-- MOBILE SPECIFIC -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -139,9 +139,9 @@
                                         <a href="javascript:;">Post detail</a>
                                         <ul class="sub-menu">
                                             <li><a href="post-image.html">Post Image</a></li>
-                                            <li><a href="post-gallery.html">Post Gallery</a></li>
+                                         <!--    <li><a href="post-gallery.html">Post Gallery</a></li>
                                             <li><a href="post-video.html">Post Video</a></li>
-                                            <li><a href="post-right-sidebar.html">Post Right Sidebar</a></li>                                        
+                                            <li><a href="post-right-sidebar.html">Post Right Sidebar</a></li> -->                                        
                                         </ul>                                    
                                     </li>                                         
 
@@ -414,11 +414,11 @@
                 </div>
             </div>
             <!-- FOOTER BLOCKES START -->  
-            <div class="footer-top overlay-wraper">
+<!--             <div class="footer-top overlay-wraper">
                 <div class="overlay-main"></div>
                 <div class="container-fluid">
                     <div class="row">
-                        <!-- RESENT POST -->
+                        <!-- RESENT POST --
                         <div class="col-xl-3 col-lg-6 col-md-6">
                             <div class="widget recent-posts-entry">
                                 <h4 class="widget-title  text-uppercase">Recent Post</h4>
@@ -477,7 +477,7 @@
                             </div>                      
                         </div>
                                                  
-                        <!-- ABOUT COMPANY -->
+                        <!-- ABOUT COMPANY --
                         <div class="col-xl-3 col-lg-6 col-md-6">  
                             <div class="widget widget_about">
                                 <h4 class="widget-title  text-uppercase">About Information</h4>
@@ -501,7 +501,7 @@
                         
                    
                         
-                        <!-- USEFUL LINKS -->
+                        <!-- USEFUL LINKS --
                         <div class="col-xl-3 col-lg-6 col-md-6">
                             <div class="widget widget_services inline-links">
                                 <h4 class="widget-title">Useful links</h4>
@@ -518,7 +518,7 @@
                             </div>                           
                         </div>      
                         
-                        <!-- TAGS -->
+                        <!-- TAGS --
                         <div class="col-xl-3 col-lg-6 col-md-6">
                             <div class="widget widget_address_outer m-b20">
                                 <h4 class="widget-title">Contact Us</h4>
@@ -530,18 +530,18 @@
                                 </ul>
                             </div>
                         </div>
-                        <!-- NEWSLETTER -->
+                        <!-- NEWSLETTER --
 
                     </div>
                     
                 </div>
-            </div>
+            </div> -->
             <!-- FOOTER COPYRIGHT -->
             <div class="footer-bottom">
                 <div class="container">
                     <div class="footer-logo-bar">
                         <a href="index-2.html"><img src="images/logo-dark.png" alt=""></a>
-                        <span class="copyrights-text">© 2019 Your Company. Designed By thewebmax.</span>
+                        <span class="copyrights-text">&copy;  <label id="year"></label> Sakhisizwe Associates. Designed By Gazelle Creek Technologies.</span>
                     </div>
                 </div>
             </div>
@@ -567,6 +567,9 @@
 <!-- LOADING AREA  END ====== --> 
 
 <!-- JAVASCRIPT  FILES ========================================= --> 
+<script>
+    document.getElementById("year").innerHTML = new Date().getFullYear();
+</script>
 <script  src="js/jquery-3.4.1.min.js"></script><!-- JQUERY.MIN JS -->
 <script  src="js/bootstrap.min.js"></script><!-- BOOTSTRAP.MIN JS -->
 <script src="js/popper.min.js"></script><!-- POPPER.MIN JS -->
