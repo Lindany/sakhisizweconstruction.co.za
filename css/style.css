@@ -4458,7 +4458,7 @@ font-weight: 400;
 .header-nav .nav > li > a:focus {	background-color: transparent;}
 
 .header-nav .nav > li.active > a,
-.header-nav .nav > li.current-menu-item > a {background-color: transparent;	color: #d5dd02;}
+.header-nav .nav > li.current-menu-item > a {background-color: transparent;	color: #f17627;}
 
 .header-nav .nav > li:hover > a {color: #d5dd02;}
 
@@ -4943,7 +4943,7 @@ top:0px;
 	left:0px;
 	width:100%;
 	padding:30px;
-	border:10px solid #d5dd02
+	border:10px solid #f17627
 }
 
 .wt-bnr-inr-entry .banner-title-outer .banner-title-name:before{
