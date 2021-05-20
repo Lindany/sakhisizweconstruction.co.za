@@ -169,8 +169,10 @@
                     <!-- GOOGLE MAP & CONTACT FORM -->
                     <div class="section-content">
 
-                        <div class="contact-form p-a30 bg-gray"> 
-                            <form class="cons-contact-form" method="post" action="http://www.thewebmax.com/archmvz/form-handler.php">
+
+
+                        <div class="contact-form p-a30 bg-gray form-container form-container-card"> 
+                            <form class="cons-contact-form send_message_form form" method="post" action="assets/fcf.process.php" id="message_form">
                                 <div class="contact-one">
                                 
                                     <!-- TITLE START -->
@@ -181,28 +183,41 @@
                                     <div class="row"> 
                                         <div class="col-md-6">                               
                                             <div class="form-group">
-                                                <input name="username" type="text" required class="form-control" placeholder="Name">
+                                                <input  name="Name" id="Name" type="text" required class="form-control" placeholder="Name">
                                             </div>
                                         </div>
-                                        <div class="col-md-6">
+                                         <div class="col-md-6">
                                             <div class="form-group">
-                                                <input name="email" type="text" class="form-control" required placeholder="Email">
+                                                   <input name="Phone" id="Phone"  type="tel" placeholder="Phone" class="form-control" required>
                                             </div>
                                         </div>
                                         <div class="col-md-12">
                                             <div class="form-group">
-                                                <textarea name="message" rows="4" class="form-control " required placeholder="Message"></textarea>
+                                                <input name="Email" id="Email" type="text" class="form-control" required placeholder="Email">
                                             </div>
                                         </div>
+                                        <div class="col-md-12">
+                                            <div class="form-group">
+                                                <textarea name="Message" id="Message" rows="4" class="form-control " required placeholder="Message"></textarea>
+                                            </div>
+                                        </div>
+                                        <div id="fcf-status" class="fcf-status"></div>
+
                                         <div class="col-md-12">
                                             <div class="text-right">
-                                                <button  name="submit" type="submit" value="Submit" class="site-button radius-no text-uppercase font-weight-600" type="button">Submit</button>
+                                                <button  id="fcf-button" type="submit"  nname="submit_message" value="Submit" class="site-button radius-no text-uppercase font-weight-600" type="button">Submit</button>
                                             </div>
                                         </div>
                                     </div>
     
                                 </div>
                             </form>
+                        </div>
+                        <div id="fcf-thank-you" style="display:none">
+                      <!-- Thank you message goes below -->
+                      <strong>Thank you</strong>
+                      <p>Thanks for contacting us, we will get back in touch with you soon.</p>
+                      <!-- Thank you message goes above -->
                         </div>
                         
                         <div class="contact-info text-center m-t80 m-b50">
@@ -328,6 +343,9 @@
 <script  src="js/map.script.js"></script><!-- MAP FUCTIONS [ this file use with google map]  -->
 <script  src="js/custom.js"></script><!-- CUSTOM FUCTIONS  -->
 
+    <script src="assets/js/fcf.just-validate.min.js"></script>
+    <script src="assets/js/fcf.form.js"></script>
+    <!-- the lines above are needed -->
 
 </body>
 

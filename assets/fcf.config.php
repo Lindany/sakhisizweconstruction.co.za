@@ -80,24 +80,24 @@ define('EMAIL_OUT_FROM_NAME', '');
 // *************
 // EMAIL MESSAGE
 // *************
-define('EMAIL_TO', 'info@gazellecreektechnologies.co.za');
-define('EMAIL_TO_NAME', 'Gazelle Creek Technologies');
+define('EMAIL_TO', 'info@sakhisizweandassociates.co.za');
+define('EMAIL_TO_NAME', 'Sakhisizwe And Associates Social Enterprise');
 
-define('EMAIL_TO_CC', 'mabasolindanircardo@gmail.com');
-define('EMAIL_TO_CC_NAME', 'Lindani');
+define('EMAIL_TO_CC', 'lseakatsie@sakhisizweandassociates.co.za');
+define('EMAIL_TO_CC_NAME', 'Lebogang');
 
-define('EMAIL_TO_BCC', '');
-define('EMAIL_TO_BCC_NAME', 'lindanimabaso@gazellecreektechnologies.co.za');
+define('EMAIL_TO_BCC', ' lmvula@sakhisizweandassociates.co.za');
+define('EMAIL_TO_BCC_NAME', 'Londiwe');
 
-define('EMAIL_FROM', 'info@gazellecreektechnologies.co.za');
-define('EMAIL_FROM_NAME', '');
+define('EMAIL_FROM', 'info@sakhisizweandassociates.co.za');
+define('EMAIL_FROM_NAME', 'Sakhisizwe And Associates Social Enterprise');
 
 define('EMAIL_REPLY_TO', 'FIELD:Email');
 define('EMAIL_REPLY_TO_NAME', 'FIELD:Email');
 
 define('EMAIL_SUBJECT_BEFORE', '');
 define('EMAIL_SUBJECT', "New Website Contact Email");
-define('EMAIL_SUBJECT_AFTER', '');
+define('EMAIL_SUBJECT_AFTER', 'Contact From Website');
 
 
 
@@ -105,9 +105,9 @@ define('EMAIL_SUBJECT_AFTER', '');
 // EMAIL TRANSPORT
 // ***************
 define('USE_SMTP', 'NO'); // YES or NO
-define('SMTP_HOST', 'mail.gazellecreektechnologies.co.za');
-define('SMTP_USER', 'info@gazellecreektechnologies.co.za');
-define('SMTP_PASS', 'info@gazellecreektechnologies.co.za');
+define('SMTP_HOST', 'mail.sakhisizweandassociates.co.za');
+define('SMTP_USER', 'info@sakhisizweandassociates.co.za');
+define('SMTP_PASS', '_TtVUb[TXd?T');
 define('SMTP_AUTH', '');
 define('SMTP_SECURE', ''); // STARTTLS, SMTPS (port 465) or empty
 define('SMTP_PORT', '');
